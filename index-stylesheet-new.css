@@ -1,0 +1,142 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 30px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #BC8F8F;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+/* ON HOVER */
+.sidenav:hover{
+   width: 225px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.sidenav-descr {
+	color: white;
+	text-align: center;
+}
+
+.headshot
+{
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+.project-img
+{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  max-width: 150px;
+  max-height: 150px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+
+#contact-links {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#contact-links > li {
+	display: inline;
+}
+
+
+
+#contact-links > li > button > a > span {
+	color: rgb(160,37,78);
+}
+
+.modal > .modal-dialog > .modal-content > .modal-header > h2{
+	color: gray;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-header > p {
+	color: #BC8F8F;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-body > p > a{
+	color: rgb(160,37,78);
+}
+
+.modal > .modal-dialog > .modal-content > .modal-body > div > div > h3{
+	color: rgb(160,37,78);
+	font-size: 18px;
+}
+
+
+button {
+	border: none;
+	background-color:white;
+
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.org-descr > h3 {
+	margin-top: 0;
+	margin-bottom:0;
+	color: gray;
+	/*color: rgb(160,40,80);*/
+	font-size: 20px;
+}
+
+.org-descr > p {
+	color: #BC8F8F;
+  margin-bottom: 0px;
+}
+
+.list-group-item {
+	margin-top: 20px;
+}
+
+.org-descr > p > a, .org-descr > ul > li > a {
+	color: rgb(160,37,78);
+}
+
+
+.img-thumbnail {
+ 	border: none;
+}
+
+.home-square-img {
+  /*max-width: 150px;*/
+  max-height: 150px;
+  margin: 10px;
+}

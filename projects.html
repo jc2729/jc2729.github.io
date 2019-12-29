@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Janice Chan | Cornell University | Computer Science">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Janice Chan </title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--Customized Style Sheet-->
+	<link rel="stylesheet" href="index-stylesheet-new.css">
+	<!--Glyphicons from FontAwesome-->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="icon" href="assets/favicon.png">
+</head>
+
+<body>
+	<div class="row">
+		<div class="col-xs-2">
+			<div class="sidenav">
+				<span id="sidenav-glyphicon" class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="padding-left: 5px"></span>
+
+				<ul class="list-unstyled sidenav-descr center-block" style="display: none">
+					<li style="font-size: 25px; font-weight:bold;"> Janice Chan </li>
+					<li>Cornell University </li>
+					<li>Master of Engineering </li>
+					<li>08/2019 - Now</li>
+					<br>
+					<li>College of Engineering </li>
+					<li>Computer Science Major </li>
+					<li>Information Science Minor</li>
+					<li>08/2016 - 05/2019</li>
+				</ul>
+				<br>
+				<img onclick="goHome()" class="headshot center-block" src="assets/headshot.jpg" alt="headshot" style="display: none">
+				<br>
+				<ul class="center-block">
+					<a href="index.html">about me</a>
+					<a href="projects.html">&lt;projects&gt;</a>
+					<a href="org.html">organizations</a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-xs-8">
+			<h1 style="text-align: center">projects</h1>
+			<br>
+			<div class="container text-center text-lg-left" style="width:100%">
+				<div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#apaxModal">
+                <img class="img-fluid img-thumbnail" src="assets/apax.png" alt="apax" style="margin-top:-5%">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#wiccResourcesModal">
+                <img class="img-fluid img-thumbnail" src="assets/wicc_resources.png" alt="wicc resources" style="margin-top:-8%">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#projectModal">
+                <img class="img-fluid img-thumbnail" src="assets/project.jpg" alt="project">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-8">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#baemlModal">
+                <img class="img-fluid img-thumbnail" src="assets/baeml.png" alt="baeml" style="padding-top:10%; padding-bottom:5%; text-align:center">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#iosModal">
+                <img class="img-fluid img-thumbnail" src="assets/ios.png" alt="ios">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#merchModal">
+                <img class="img-fluid img-thumbnail" src="assets/wicc_merch_ss/grid.png" alt="wicc merch">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#hackathonModal">
+                <img class="img-fluid img-thumbnail" src="assets/animal_health_hackathon_ss/login.png" alt="animal health hackathon">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#critterModal">
+                <img class="img-fluid img-thumbnail" src="assets/projects_critter.jpg" alt="critter world" width="80%">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#minesweeperModal">
+                <img class="img-fluid img-thumbnail" src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project6.png" alt="minesweeper" width="60%">
+            </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12">
+            <button class="thumbnail-btn" data-toggle="modal" data-target="#websiteModal">
+                <img class="img-fluid img-thumbnail" src="assets/personal_website.png" alt="personal website">
+            </button>
+        </div>
+    	</div>
+    </div>
+
+    <!-- Modal -->
+		<div id="wiccResourcesModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2> WICC Resources </h2>
+						<p> PHP/CSS/JavaScript | Team Project </p>
+						<p> Fall 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>In an effort to expose women and minorities to and encourage them to explore the different career paths in tech, the brand team on WICC's executive board decided to research and subsequently publish a page of useful resources, from courses to books, for fields ranging from product design to engineering. As technical co-director, I sprinkled in my own tips and resources and revamped the resources page. </p>
+		        <p> Check out the page <a href="https://wicc.acm.org/resources.php"> here</a>! </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div id="apaxModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2> APAX </h2>
+						<p> OCaml | Team Project </p>
+						<p> Nov 2017 - Dec 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>Inspired by some seniors implementing Paxos, my friends and I, as part of an attempt to learn about distributed computing, decided to implement the Raft algorithm. Raft is a distributed consensus algorithm which allows clients to connect to any server in a server cluster and update a stored value. I was a backend developer in this project, and I worked on both leader election and log replication: I setup networking between servers and debugged leader-follower communications to automate leader election.<sup>*</sup> In addition, I designed structures (deciding how to store and process the RPC requests from clients, followers, and leader) for log replication for servers to reach a consensus, and tolerate failures within the clique.
+		        <br><br>
+		        <sup>*</sup>The leader is the server that the client is redirected to; all client requests must go through the leader, who sends a remote procedure call (RPC) to its follows and only commits the entry to its log if the update is accepted by a majority of the followers. The leader periodically sends heartbeat RPCs to its followers, and if a leader is down, the followers and supposed to automatically re-elect a new leader, so the system can resume processing client requests as normal.
+		        </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal -->
+		<div id="projectModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> Project </h2>
+				<p> Swift/JavaScript | Team Project </p>
+				<p> July 2017 - Aug 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>Screensharing apps currently exist for desktop platforms but there are little to no mobile apps that allow user to share their iPhone or iPad screens in realtime. The purpose of this project is to allow users to draw on their iPhones or iPads, then <i>project</i> their drawings and diagrams onto a web app. Hopefully this will make it more convenient for students working on projects remotely (like my team) to collaborate with their peers. The end goal is to eliminate the tedious cycle of first using the camera app to take pictures of our ideas, uploading and sending them through a second app, and opening yet another app to flesh out the ideas over video chat.</p>
+		        <p> I created the concept and served as project leader for Project. Using Firebase database as the backend, I configured secure data transfer from the Swift-based iOS app to a JavaScript-based web app, and set up data processing in the web app to reflect changes to a drawing in real-time.</p>
+		        <p> Check out the web app <a href="http://www.prject.co.nf/"> here</a>. Stay tuned for the release of the iOS app; in the meantime, check out some sneak peeks below! </p>
+		        <div style="text-align: center;"><img src="assets/ios_home.png" width="40%"><img src="assets/ios_drawpad.png" width=40%></div>
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div id="baemlModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2> baeML </h2>
+		      	<p> ReactJS/Python/Django | Team Project </p>
+						<p> June 2017 - Aug 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>My team and I started this project with the goal of breaking the so-called echo-chamber effect of social media. Upon logging in, the user's Facebook likes are processed, and articles appealing to the user's tastes are retrieved. With each article the user reads and rates, the more data the machine-learning model works with to fetch personalized article content.</p>
+		        <p> I experienced full-stack development through this project. Using ReactJS, I managed article display, retrieval, and rating in the frontend. For the backend, I set up database models in Django and handled all interactions between backend modules, such as database queries and updating user model and keywords for machine learning. </p>
+		        <div style="text-align: center;"><img src="assets/baeml_home.png" width="70%"></div>
+		        <div style="text-align: center;"><img src="assets/baeml_feed.png" width=70%></div>
+		       	<br>
+		        <p> The repository can be found <a href="https://github.com/jz359/baeML/"> here</a>.</p>
+		      </div>
+			</div>
+
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div id="iosModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> iOS App Development Training </h2>
+				<p> Swift | Individual Project </p>
+				<p> Feb 2017 - June 2017 </p>
+
+		      </div>
+		      <div class="modal-body">
+		        <p>I took this course to learn about iOS App Development. During the spring 2017 training program, I created 6 mobile apps and implemented the remaining challenge problems in summer 2017. The repository can be found <a href="https://github.com/jc2729/CUAppDev-Training" title="ios app dev training program repository">here</a>.</p>
+		        <div style="text-align: center;">
+			        <div>
+			        <h3>Student Info App</h3>
+			        <img src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project1.png" width="40%">
+			        </div>
+			        <div>
+			        <h3>Square Arena App</h3>
+			        <img src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project2.png" width="40%">
+			        </div>
+			        <div>
+			        <h3>Friends App</h3>
+			        <img src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project3.png" width="40%">
+			        </div>
+			        <div>
+			        <h3>Contacts App</h3>
+			        <img src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project4.png" width="40%">
+			        </div>
+			        <div>
+			        <h3>Tinder App</h3>
+			        <img src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project5.png" width="40%">
+			        </div>
+			        <div>
+			        <h3>Minesweeper App</h3>
+			        <img src="https://raw.githubusercontent.com/jc2729/CUAppDev-Training/master/images/cuappdev_training_project6.png" width="40%">
+			        </div>
+		        </div>
+
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div id="merchModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> WICC Website Merchandise Section </h2>
+				<p> PHP/CSS | Individual Project </p>
+				<p> Jan 2017 - May 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>I created this page for the WICC website as part of a merchandise expansion project intended to foster a sense of community within WICC, release date TBD. The goal is to create a centralized location for ordering and viewing apparel by adding a merchandise grid and order forms.</p>
+		        <img src="assets/wicc_merch_ss/grid.png" width="100%" style="text-align: center;">
+				<img src="assets/wicc_merch_ss/order.png" width="100%" style="text-align: center;">
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		        <!-- Modal -->
+		<div id="hackathonModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> Pawpulation </h2>
+				<p> Cornell University Animal Health Hackathon | Java | Team Project  </p>
+				<p> Jan 28, 2017 - Jan 29, 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p> In a nutshell, I worked with a team of vets, designers, and developers to enable real-time disease surveillance and research. I created a GUI that supports searching the database, and exporting and importing data. </p>
+		        <div style="text-align: center;">
+		        <img src="assets/animal_health_hackathon_ss/login.png" alt="Login" width="40%">
+		        <img src="assets/animal_health_hackathon_ss/dropdown.png" alt="Search Functionality" width="40%">
+		        </div>
+				<p> The repository can be found <a href="https://github.com/jc2729/pawpulation/">here</a>. Read more about my experience below... </p>
+				<hr style="margin-bottom:0">
+				<p>
+				<br>My team originally comprised of my 3 developer friends and me. <em>Our interdisciplinary team of 8, consisting of 3 vet school students and 1 Masters of Engineering student - all strangers - and us, </em> came together because we were all drawn to the notion of a disease tracker for animals.<br>
+
+				<br>Currently, if a human patient goes into a hospital and is diagnosed with a disease, that data point is recorded and added to epidemiological databases. But in companion animal medicine in the United States, data collection is lacking. There are limited, accessible databases for some infectious diseases, reports on diseases are distributed infrequently, and for some diseases, data entry is even optional.<br>
+				<br> <em> We envisioned a software that would streamline data entry</em> (by parsing JSON) <em>and upload data points to a database on a server</em>. This <em>database would update in real-time</em>. That way, vets and researchers can easily search the database using criteria such as zip code and disease <em>to track and prevent the spread of disease</em>. Furthermore, the user can export data to CSV form, compatible, raw data for statistical analysis. Pharmaceutical companies, for example, could use this feature to develop more timely products and combat diseases quicker.<br>
+
+				<br> Our prototype allows data to be easily imported, exported, and searched. Unfortunately, we were not able to set up a database server to collect this data. Instead, the data imported was stored inside an ArrayList. Ideally, the data would be added to an SQL database for time-efficient and space-efficient retrieval. <em>I mainly worked on the "database": adding data, filtering searches, returning a summary of data, and updating the client's dropdown boxes programmatically based on available data.</em> <br>
+				<div style="text-align: center;">
+				<img src="assets/animal_health_hackathon_ss/open_dropdown.png" alt="Open Dropdown Boxes" width="40%">
+				<img src="assets/animal_health_hackathon_ss/results.png" alt="Results Page" width="40%">
+				</div>
+				<br> From this hackathon, I realized that engineering a product requires much much more than knowledge of programming languages and data structures. <em>Engineering first requires a vision. </em>For a majority of the time, I was extremely focused on coding to completing the product. In retrospect, a complete product is great, but only a well thought-out product will truly benefit people. That's why listening to the vet's discussions on feasibility (whether the data should be manually entered or import automatically), the business model (whether the market was the public, vets, or companies), etc. were so valuable for me. Although the hackathon was extremely draining (the developers stayed up from 10AM to 4AM the next day), I was motivated because of the vet students' passion. I originally participated in the hackathon for the experience - to challenge myself and see how quickly I could think and code in a pressurized-situation. <em>I came out of the hackathon enlightened, understanding the importance of thinking about all aspects of a product and sincerely striving to create an impact with it, not just perfecting and optimizing the technical side.</em> <br>
+
+				<br>My team is currently looking into ways this product can be developed further. Although unlike other hackathon projects, this project is not geared towards the general public as a market, this could be of great value to researchers. I hope that a revamped product of this kind can really be used to stop disease outbreaks and benefit animal and human lives.
+				</p>
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div id="critterModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> Critter Simulation </h2>
+				<p> Java | Team Project </p>
+				<p> Oct 2016 - Dec 2016</p>
+		      </div>
+		      <div class="modal-body">
+		        <p>This was the first big project I worked on with very little pre-existing code to build off of. I had to write up design docs as well and learn about different design patterns as well: I designed a class hierarchy to represent an abstract syntax tree upon parsing a “critter” program; incorporated the visitor pattern for pretty-printing and “mutating” the AST; used the model-view-controller pattern to  interpret the critter language and simulate execution of critter programs. I also became interested in front-end work as I built a GUI for visualizing and changing a critter hex world using Java, and inspecting a single hex using JavaFx. The most exciting part of the project was writing a threadsafe server supporting HTTP requests from multiple GUI clients to modify the critter world via JSON objects. I was amazed when I saw changes propagate on the different clients simultaneously.</p>
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		        <!-- Modal -->
+		<div id="minesweeperModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> Minesweeper </h2>
+				<p> Python | Individual Project </p>
+				<p> Dec 2016 - Jan 2017 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>I recreated the classic game, in which the player tries to safely uncover cells in a board with hidden mines, from scratch with a command-line interface to practice Python. I implemented the ripple effect for uncovering blank cells using recursion and added an option to request hints for solving the puzzle. The repository can be found <a href="https://github.com/jc2729/minesweeper " title="minesweeper python project repository">  here</a>. I later developed an iOS app for this game as part of the iOS Development Training Program.</p>
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		<!-- Modal -->
+		<div id="websiteModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h2> Personal Website </h2>
+				<p> HTML/CSS/JavaScript | Individual Project  </p>
+				<p> Dec 2016 - Dec 2016 </p>
+		      </div>
+		      <div class="modal-body">
+		        <p>My first web development project! I built the first version of my website using HTML, CSS, JS, and Bootstrap upon completion of HTML and CSS Essential Training courses on lynda.com and JavaScript tutorial on W3Schools. The repository can be found <a href="https://github.com/jc2729/jc2729.github.io"> here</a>.</p>
+		      </div>
+
+		    </div>
+
+		  </div>
+		</div>
+
+		<div class="col-xs-2">
+		<ul class="list-unstyled" id="contact-links">
+			<li><button><a href="mailto:jc2729@cornell.edu"><span class="glyphicon glyphicon glyphicon-envelope" aria-hidden="true"></span></a> </button></li>
+			<li><button><a href="https://github.com/jc2729" title="personal github"><span class="fa fa-github"></span></a> </button> </li>
+			<li><button><a href="https://www.linkedin.com/in/janicechan2729/" title="linkedin"><span class="fa fa-linkedin"></span></a> </button></li>
+			<li><button><a href="assets/resume.pdf" title="download resume" hover="Janice Chan Resume" download="Janice Chan Resume"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></button></li>
+		</ul>
+		</div>
+
+	</div>
+
+</body>
+
+<footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--Customized JS-->
+	<script src="scripts.js"></script>
+</footer>
+</html>
